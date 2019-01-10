@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Gradually give thicker (viscous) food and high in nutrition"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• Increase the densityof food as the child gets older. Porridge that is too thin and watery fills the stomach without providing enough energy or nutrients for your child to grow and develop."
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• Make sure you enrich the porridge with a little amount of fats/oils to provide additional energy."
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• At 6 months of age give pureed foods that are thick enough to stay in the spoon"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• At around 8-9 months of age, change the consistency of food from pureed to hand mashed/chunky but soft food"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• Peas, germinated beans, lentils, crushed and powdered nuts like (peanuts/walnuts/almonds) and seeds (sesame seeds, pumpkin seeds, melon seeds, flex seeds, sunflower seeds), coconut cream or grated coconut, milk powder, can be added to complementary food to increase nutrients and calories."
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Do not give soups or juices to your child aged between 6 months to one year"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:src="@drawable/spoon" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="540dp"
+                android:src="@drawable/cues" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:text="Swipe to Right >>"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sprouted Grains or Legumes"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Cereal or legumes are soaked in water and then they are sprouted"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• The sprouted cereal or grains thendried (sometimes roasted) and ground into flour"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• This germinated flour can be used to make porridge. This type of flour does not thicken much during cooking so less water can be used"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Add a pinch of the germinated flour to cooked thick porridge that has cooled a little bit. The porridge should be boiled again for a few minutes after adding the germinated flour. This addition will make the porridge softer and easier for the child to eat."
+                android:textColor="#000000"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/legumes"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/legumes1"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/legumes2"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/legumes3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

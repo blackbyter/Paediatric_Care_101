@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Definition of Complementary Feeding"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Complementary feeding means giving other foods in addition to breastmilk."
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• These other foods are called complementary foods."
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• The term ‘complementary feeding’ is used to emphasize that this feeding complements breast milk rather than replacing it."
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="What Happens if Complementary Feeding started too soon?"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Take the place of breast milk resulting in lower nutrients"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Increase risk of illness"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Less protective factors"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Other foods not as clean"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Difficult to digest foods"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Increase mother’s risk of pregnancy"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="What happens if Complementary Feeding is added too late?"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Results in child not receiving adequate calories"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Slows child growth and development"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Risk causing deficiency and malnutrition"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• Risk of rejecting solid food at later age"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

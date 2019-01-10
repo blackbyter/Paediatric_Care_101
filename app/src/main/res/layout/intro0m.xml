@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:src="@drawable/baby"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="170dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="हे मोबाइल एप्प बाळाच्या आणि आईच्या आरोग्यासाठी, व बाळाला आयुष्यात हुशार, बुद्धिमान बनवण्यासाठी आवश्यक पोषणांना निवडण्यात मददीचे आहे|"
+       android:textColor="@color/colorPrimary"
+       android:layout_marginTop="-160dp"
+       android:textSize="15dp"
+       android:textStyle="bold"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="बाळाचे वाढ (उंची, लांबी आणि वजन) WHO यांच्या ग्रोथ-चार्ट प्रमाणे होत आहे, हे वारंवार तपासून घेणे महत्वाचे आहे|"
+       android:textColor="@color/colorPrimary"
+       android:textSize="15dp"
+       android:textStyle="bold"
+     />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="त्यासाठी या एप्पचे उपयोग करावे आणि बाळाचे वजन कमी झाले व नंतर वाढत नसेल, तर लवकरच एका प्रशिक्षित आरोग्य कर्मचारीला दाखवावे|"
+       android:textColor="@color/colorPrimary"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       />
+</LinearLayout>

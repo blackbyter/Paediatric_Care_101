@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="220dp"
+                android:text="बाळाचे वजन कमी झाले आणि नंतर वाढत नसेल, तर लवकरच एका प्रशिक्षित आरोग्य कर्मचारीला दाखवावे"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                tools:layout_height="match_parent" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

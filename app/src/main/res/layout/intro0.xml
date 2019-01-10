@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="185dp"
+       android:src="@drawable/baby"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="170dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="This App will guide you in deciding the right kind of nutrition for you (the mother) and your baby so that you bring up a healthy, smart, intelligent child who will do well in her/his life ahead."
+       android:textColor="@color/colorPrimary"
+       android:layout_marginTop="-160dp"
+       android:textSize="15dp"
+       android:textStyle="bold"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="It is extremely important to periodically monitor your child’s weight and length/height and check if the baby is growing as per the WHO growth charts."
+       android:textColor="@color/colorPrimary"
+       android:textSize="15dp"
+       android:textStyle="bold"
+     />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Please go through the App regularly and if your child growth is not as per the WHO charts or is severely malnourished consult the health care worker in your area."
+       android:textColor="@color/colorPrimary"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       />
+</LinearLayout>

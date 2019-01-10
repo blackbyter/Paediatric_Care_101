@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पती - लक्ष द्यावे !!"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#92D050"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="तुमच्या बाळाला हुशार आणि निरोगी बनवण्यात तुमची फार मोठी भूमिका आहे"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="बुद्धिमान बनवण्यासाठी खालीलप्रमाणे करावे: "
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• पत्नी गर्भवती झाल्यावर तिची काळजी घ्यावी व तिला आनंदी ठेवावे"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• हे मोबाइल एप्प आईच्या आरोग्यासाठी आवश्यक पोषणांना निवडण्यात मददीचे आहे"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• बाळाला जन्मानंतर, दोन वर्षे पुरी होईपर्यंत दुसरे कोणतेही दूध न देता केवळ आईचे दूध दिले पाहिजे"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#008000"
+        android:textStyle="bold"
+        android:text="• बाळाचे वाढ (उंची, लांबी आणि वजन) WHO यांच्या ग्रोथ-चार्ट प्रमाणे होत आहे, हे वारंवार तपासून घेणे महत्वाचे आहे"/>
+</LinearLayout>

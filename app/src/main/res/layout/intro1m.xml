@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पहिले १००० दिवस किती महत्वाचे?"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#92D050"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="कुपोषणामुळे काय होते?"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• मंद वाढ"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• बुद्ध्यांक (IQ) नुकसान"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• संक्रमण आणि तीव्र रोग होण्याची शक्यता"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="यांमधील काहीही झाल्यावर त्याचे उपाय नसल्यामुळे पहिल्या १००० दिवसात भरपूर पोषण घेणे फार महत्वाचे आहे"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:text="• मुलीचा वाढ पहिल्या २ वर्षात कमी राहिल्यावर, ती स्वतः आई बनेल त्यावेळी तिच्या बाळाचे वजन कमी असेल"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• ही समस्या टाळण्यासाठी २-३ पिढ्या लागतात"
+        android:textColor="#000000"/>
+</LinearLayout>

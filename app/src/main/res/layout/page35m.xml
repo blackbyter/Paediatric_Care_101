@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="30dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="चांगला खाण्याच्या सवयी – जेवण आणि नाश्ता"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• ६ महिन्यांनंतर सुरु केलेल्या खाण्याच्या सवयी चालू ठेवावी. पहिल्या वाढदिवसानंतर बाळाला जे आपण खातात, ते पण देण्याची यशस्वी सुरूवात करावी. जेवण छोट्या प्रमाणात आणि लहानश्या तुकड्यात द्यावे"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="बाळाला दिवसात किमान २ गरम आणि पौष्टिक जेवण द्यावे"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="नाशतेत ताजी आणि कोरड्या फळे, कच्च्या भाज्या व दही द्यावे"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• जेवणानंतर भरपूर ताजा पाणी द्यावे. जेवणासोबत ताज्या फळांचे ज्यूस दिल्याने दात किडत नाही"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:text="Swipe to Right >>"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

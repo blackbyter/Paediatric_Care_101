@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Husbands please note !!"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#92D050"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="You have a very important role in making a smart, healthy, intelligent child who will do well in school"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="You can achieve the above only if you do the following: "
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• Taking care of your wife from the time she conceives by keeping her happy and positive"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• Ensuring that she takes the right kind of nutrition as is also suggested here in this App"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="• Most importantly, for the child, ensuring that she/he gets mother’s milk soon after birth until two years of age (No formula milk !!)"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#008000"
+        android:textStyle="bold"
+        android:text="• Ensuring that the child is taken for periodic height, weight monitoring and her growth is as per WHO charts"/>
+</LinearLayout>

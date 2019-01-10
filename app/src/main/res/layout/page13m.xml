@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="आपण स्वतः पोषक आहार खाल्लं नसेल​ तर आपण मुलांना आवश्यक पोषण प्रदान करण्यास सक्षम नाही"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:src="@drawable/baby1" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="240dp"
+                    android:src="@drawable/baby2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="आईचे एका दिवसात ३ वेळा जेवण आणी २ वेळा उपाहार करणे जरुरीचे असते...खाल्लेल्या अन्नमध्ये सगळेच​ पोषक असणे आवश्यक आहे"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/thaaol" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:src="@drawable/poha1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="हे सगळं खाल्लं तर पोट पूर्ण भरेल​, पण काहीही उपयोगाचे नसेल"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:src="@drawable/shop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="कितीही आवडीचे असेल​, तरी वडा पाव खाऊन​ जरुरीचे पोषण मिळणार​ नाही …"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:src="@drawable/pav4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:text="Swipe to Right >>"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

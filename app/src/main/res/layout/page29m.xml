@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="लोह (आयरन) पूरक आहार"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• ६-१२ महिन्यांदर्म्यान शरीरात आयरन-फॉलिक एसिड असणे जरूरीचे आहे"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• रक्तिय पसरलेल्या स्थानात २४ महिनांपयंति े चालू ठेवावे, याचे शसरप प्राथशमक आरोग्य केंद्ांमध्येशमळिार ककंवा अन्न मध्ये शमष्क्संग साठी आयरन पावडर शमळेल"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• चुकीचे ववश्वास (शमथ्या) -फॉशलक एशसड घेतल्याने त्वचाचा रंग काळा पडतो"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• आईच्या दूधात नवजात शिशुसाठी आवश्यक ती सर्व पोषणमुल्ये असतात, गायच्या दूधात आवश्यक जीवनसत्त्वे नसून त्याऐवजी ऍलर्जी निर्माण करणारा पदार्थ असतो, म्हणूनच त्याचे सेवन देऊ नये"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:text="Swipe to Right >>"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

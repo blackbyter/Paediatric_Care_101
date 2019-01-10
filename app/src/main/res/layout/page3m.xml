@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सूक्ष्म-पोषकबद्दल उपयोगी माहिती"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="प्रकार १ आणि प्रकार २ सूक्ष्म-पोषक बाळाच्या वाढीला महत्वाचे आहे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="प्रकार १ सूक्ष्म-पोषक"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="प्रकार १ सूक्ष्म-पोषक: जीवनसत्व (विटामीन)  A, D, E, K, लोह, आयोडीन, तांबे, कॅल्शियम, मौल, थायामिन, राईबोफ्लेवीन, नायसीन, फॉलेट"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="प्रकार १ सूक्ष्म-पोषकांची कमी असेल तर ते शोधणे सोपे नाही कारण ह्यांमुळे वाढ कमी होत नाही"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="उदाहरणार्थ - आयोडीनची कमीमुळे थायरॉईडची समस्या, कॅल्शियमची कमीमुळे हाड निर्मितीत समस्या, जीवनसत्व Aच्या कमीमुळे डोळेत समस्या व इतर समस्या"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="प्रकार १ सूक्ष्म-पोषकांचे स्त्रोत: फळे, भाजीपाला, दूध, दही"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• जीवनसत्व (विटामीन) – D सकाळी १० ते दुपारी ३ दरम्यान ५ मिनिटे सूर्यप्रकाशात राहणे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• मजबूत दात आणि हाडांसाठी नाचणी, राजगिरा धान्य आणि दुधाचे सेवन करावे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• गर्भधारणेच्या दरम्यान आईने १५% अधिक पोषण घ्यावा"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• दिवसात दर ३-४ तासांनी आईने पोषक आहार खाल्ले पाहिजे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="प्रकार २ सूक्ष्म-पोषक"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="प्रकार २ सूक्ष्म-पोषक:"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="आवश्यक फॅटी एसीड, अमिनो एसीड, पोटॅशियम, मॅग्नेशियम, फॉस्फरस, गंधक, जस्त, सोडियम, नायट्रोजन, इ.."
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="प्रकार २ सूक्ष्म-पोषकांची कमी असेल तर ह्यांमुळे बाळाचे वाढ कमी होते"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="प्रकार २ सूक्ष्म-पोषकांची कमी भारतदेशात सर्वात सामान्य आहे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="प्रकार २ सूक्ष्म-पोषक स्त्रोत"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="भोपळ्याच्या बिया, चॉली, अंबाडी बियाणे, भाजलेले सोयाबीन, दही, केळी, राजमा, काबुली चणे, पालक, शेंगदाणे, अंडी, तीळ, कांदा, लसूण, कोबी, ब्रोकोली, डाळ, शेवग्याच्या बिया, कडी पट्टा, आर्वी पाने, काजू, अक्रोडाचे तुकडे, बदाम, मेथी, भोपळा"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

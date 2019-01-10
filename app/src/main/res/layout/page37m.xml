@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="30dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="आजारी पडल्यावर होणार्या कुपोषणापासून सावधानी"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• आजारी पडल्यामुळे कुपोषणाची सुरूवात होऊ शकते. त्यानंतर कुपोषणामुळे बाळाची रोगप्रतिकारक शक्ती कमी होते आणि ते पुनः आजारी पडतात. रोगमुक्तता होण्यात आता जास्त वेळ लागतो"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• याला कुपोषण​-आजार सायकल म्हणतात"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• अतिसार, गोवर, श्वसन संक्रमण इत्यादी झाल्यावर कुपोषण वाढते. शरीर उपयोगाचे पोषक शोषुण घेत नाही आणि जेवणात पोषकांची आवश्यकता वाढते"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="बाळ आजारी पडल्याने अतिरिक्त काळजी घ्यावी"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• बाळाचे महत्वाचे वर्तन (६-१२ महिने)"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="बाळ आजारी पडल्यावर जास्त स्तनपान केल्याने बाळाचे वजन कमी होत नही आणि रोगमुक्तता लवकर होते"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="आजारी पडल्यावर २ आठवड्यांसाठी रोज १ अधिक घन आहार दिलं की वजन पुन्हा वाढवण्यात मदद होईल"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• बाळाचे वजन कमी झाले आणि नंतर वाढत नसेल, तर लवकरच एका प्रशिक्षित आरोग्य कर्मचारीला दाखवावे"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

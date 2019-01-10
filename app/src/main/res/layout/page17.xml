@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/clickme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:text="Ensure that the baby gets mother’s milk within 30 minutes of birth"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Put the baby on the breast within 30-60 minutes after delivery and ensure skin-to-skin unrestricted contact "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Give the first yellow milk (colostrum). Do not give anything else"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Babies should not be given any drinks or foods in the first six months"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Artificial feed given before a baby has colostrum are likely to cause allergy and infection. breastfeeding also protects a baby against diarrhea"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:src="@drawable/colostrum"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

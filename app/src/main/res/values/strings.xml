@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text">• औषधांसाठी उकडलेले/शुद्ध पाणी वापरावे</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="page1">Page1</string>
+    <string name="page1m">Page1m</string>
+    <string name="page2">Page2</string>
+    <string name="page2m">Page2m</string>
+    <string name="page3">Page3</string>
+    <string name="page3m">Page3m</string>
+    <string name="page4">Page4</string>
+    <string name="page4m">Page4m</string>
+    <string name="page5">Page5</string>
+    <string name="page5m">Page5m</string>
+    <string name="page6">Page6</string>
+    <string name="page6m">Page6m</string>
+    <string name="page7">Page7</string>
+    <string name="page7m">Page7m</string>
+    <string name="page8">Page8</string>
+    <string name="page8m">Page8m</string>
+    <string name="page9">Page9</string>
+    <string name="page9m">Page9m</string>
+    <string name="page9a">Page9a</string>
+    <string name="page9ma">Page9ma</string>
+    <string name="page10">Page10</string>
+    <string name="page10m">Page10m</string>
+    <string name="page11">Page11</string>
+    <string name="page11m">Page11m</string>
+    <string name="page12">Page12</string>
+    <string name="page12m">Page12m</string>
+    <string name="page13">Page13</string>
+    <string name="page13m">Page13m</string>
+    <string name="page14">Page14</string>
+    <string name="page14m">Page14m</string>
+    <string name="page15">Page15</string>
+    <string name="page15m">Page15m</string>
+    <string name="page16">Page16</string>
+    <string name="page16m">Page16m</string>
+    <string name="page17">Page17</string>
+    <string name="page17m">Page17m</string>
+    <string name="page18">Page18</string>
+    <string name="page18m">Page18m</string>
+    <string name="page19">Page19</string>
+    <string name="page19m">Page19m</string>
+    <string name="page20">Page20</string>
+    <string name="page20m">Page20m</string>
+    <string name="page21">Page21</string>
+    <string name="page21m">Page21m</string>
+    <string name="page22">Page22</string>
+    <string name="page22m">Page22m</string>
+    <string name="page23">Page23</string>
+    <string name="page23m">Page23m</string>
+    <string name="page24">Page24</string>
+    <string name="page24m">Page24m</string>
+    <string name="page25">Page25</string>
+    <string name="page25a">Page25a</string>
+    <string name="page25m">Page25m</string>
+    <string name="page26">Page26</string>
+    <string name="page26m">Page26m</string>
+    <string name="page27">Page27</string>
+    <string name="page27m">Page27m</string>
+    <string name="page28">Page28</string>
+    <string name="page28a">Page28a</string>
+    <string name="page28m">Page28m</string>
+    <string name="page29">Page29</string>
+    <string name="page29m">Page29m</string>
+    <string name="page30">Page30</string>
+    <string name="page30m">Page30m</string>
+    <string name="page31">Page31</string>
+    <string name="page31m">Page31m</string>
+    <string name="page32">Page32</string>
+    <string name="page32m">Page32m</string>
+    <string name="page33">Page33</string>
+    <string name="page33m">Page33m</string>
+    <string name="page34">Page34</string>
+    <string name="page34m">Page34m</string>
+    <string name="page35">Page35</string>
+    <string name="page35m">Page35m</string>
+    <string name="page36">Page36</string>
+    <string name="page36m">Page36m</string>
+    <string name="page37">Page37</string>
+    <string name="page37m">Page37m</string>
+
+    <string name="pagea">Pagea</string>
+    <string name="pageb">Pageb</string>
+    <string name="pagec">Pagec</string>
+    <string name="paged">Paged</string>
+    <string name="pagee">Pagee</string>
+    <string name="pagef">Pagef</string>
+    <string name="pageg">Pageg</string>
+    <string name="pageh">Pageh</string>
+    <string name="pagei">Pagei</string>
+    <string name="pagej">Pagej</string>
+
+    <string name="pageam">Pageam</string>
+    <string name="pagebm">Pagebm</string>
+    <string name="pagecm">Pagecm</string>
+    <string name="pagedm">Pagedm</string>
+    <string name="pageem">Pageem</string>
+    <string name="pagefm">Pagefm</string>
+    <string name="pagegm">Pagegm</string>
+    <string name="pagehm">Pagehm</string>
+    <string name="pageim">Pageim</string>
+    <string name="pagejm">Pagejm</string>
+
+    <string-array name="video_tutorial">
+        <item>How mother’s milk is made</item>
+        <item>Breast crawl</item>
+        <item>Good latch on techniques</item>
+        <item>Your child knows how to latch on</item>
+        <item>Breastfeeding easily</item>
+        <item>Positions for breastfeeding</item>
+        <item>Making child burp easily</item>
+    </string-array>
+
+    <string-array name="video_tutorial_marathi">
+        <item>आईचे दूध कसे बनते</item>
+        <item>बाळाचे स्तनाजवळ स्वतःने रांगणे</item>
+        <item>बाळाला स्तनावर योग्यरितीने लॉक करण्याची पध्दते</item>
+        <item>स्तनावर योग्यरितीने लॉक करण्याची समझ बाळाला स्वतःने असते</item>
+        <item>बाळाला सहजपणे स्तनपान कसे करावे</item>
+        <item>स्तनपानासाठी योग्य स्थान</item>
+        <item>बाळाला ढेकर कसे द्यावे</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Marathi</item>
+    </string-array>
+
+    <string-array name="languages_marathi">
+        <item>इंग्लीश</item>
+        <item>मराठी</item>
+    </string-array>
+
+    <string-array name="timeperiod">
+        <item>Mother: Pregnancy</item>
+        <item>Mother: Post-Pregnancy</item>
+        <item>Infant: 0-6 months</item>
+        <item>Infant: 6 months - 1 year</item>
+        <item>Infant: 1 year - 2 years</item>
+    </string-array>
+
+    <string-array name="timeperiod_marathi">
+        <item>आई: गर्भधारणा</item>
+        <item>आई: गर्भधारणा नंतर</item>
+        <item>अर्भकं: ०-६ महिने</item>
+        <item>अर्भकं: ६-१२ महिने</item>
+        <item>अर्भकं: १-२ वर्षे</item>
+    </string-array>
+
+</resources>

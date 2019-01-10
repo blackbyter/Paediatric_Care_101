@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="30dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• एस्कॉर्बिक अॅसिड (व्हिटॅमिन सी) मध्ये समृध्द अन्न असलेल्या भाज्या एकत्रित करणे हे अ-हेम लोहा शोषण्याची सर्वात शक्तिमान वाढ आहे जसे की फिटीट्स, टॅनिन आणि कॅल्शियम"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• जे मुले गडद हिरव्या पालेभाज्यांचा वापर करतात आठवड्यात एकदा किंवा अधिक वेळा गैर-ग्राहकांपेक्षा उच्च लोह पातळी होती"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• तरुण अशक्त स्त्रियांच्या दोन मुख्य जेवणांसहित पेरुच्या फळांचा रोजच्या आहारात लोह मिळवण्यामध्ये लक्षणीय वाढ झाली"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• अंडी एक फळ / फळ रस सह खाणे पाहिजे, चुना, ताजे टोमॅटो, कोथिंबीर पाने, कांदा सह सुशोभित"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• गूळच्या जागी गूळ घालणे आवश्यक आहे कारण त्यात लोह असते, तर साखरमध्ये केवळ ट्रेस आहे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

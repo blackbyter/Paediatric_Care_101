@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iitb.mems.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Smart Healthy Baby"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        >
+        <activity
+            android:name="com.iitb.mems.myapplication.MainActivity"
+            android:label="MalnutriCheck"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name="com.iitb.mems.myapplication.MainActivity1"
+            android:label="Guidelines"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            >
+        </activity>
+        <activity android:name="com.iitb.mems.myapplication.Feedback"
+            android:label="Feedback"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            >
+            </activity>
+        <activity android:name="com.iitb.mems.myapplication.MyPlayerActivity"
+            android:label="Video Tutorial"
+            android:configChanges="orientation|keyboardHidden|screenLayout|screenSize">
+        </activity>
+        <activity android:name="com.iitb.mems.myapplication.AboutUs"
+            android:label="About Us"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            >
+            </activity>
+        <activity android:name="com.iitb.mems.myapplication.ContactUs"
+            android:label="Contact Us"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>
+        <activity android:name="com.iitb.mems.myapplication.Splash"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iitb.mems.myapplication.IntroActivity"
+            android:label="Introduction"
+            >
+        </activity>
+    </application>
+</manifest>

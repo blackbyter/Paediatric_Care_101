@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="स्तनपानाबद्दल विशेश सुचना"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• स्तनपान करताना एक स्तन पूर्णपणे दूध​-रिक्त झाल्यानंतरच दुसऱ्यातून​ दूध द्यावे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• बाळांना स्तनपानादरम्यान झोपायची सवय असते – ते झोपले तर त्यांना उठवून ३०-४० मिनीटात स्तनपान पूर्ण करावे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• बाळांच्या नाकात म्युकस  हे चिकट पदार्थ असल्यामुळे ते श्वास घेताना आवाज करू शकतात आणि स्तनपान बरोबर होऊ शकत नाही. अशा समयी स्तनपानाच्या १५ मिनिट अगोदर प्रत्येक नाकात ५ थेंब नासोमिस्टचे (खार-पाणी) टाकावे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• बाळाचा वजनात २५-३० ग्राम वाढ चांगलं मान्य आहे, कधी कधी ४०-५० ग्राम वाढ पण पाहू शकतात"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• बाळाजवळ जाण्या अगोदर आईने नेहमी साबण आणि पाण्याने हाथ धुवावे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• जर आई बाळाजवळ नसेल, तर आईने बाळासाठी आपले दूध काढून ठेवावे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• असे काढलेले दूध सामान्य तापमानेत ८ तासांसाठी ठेवू शकतात किंवा थंडा करून २४ तासांसाठी. अशा समयी दूध देणार्या लोकांना साफ, रिकाम्या कपात दूध देण्याची सगळी माहिती हवी पाहिजे"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• आई आजारी पडली (ताप, जुलाब, शीतज्वर) किंवा गर्भवती असेल, तरी स्तनपान चालू ठेवू शकते"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• आईच्या दुधात नवजात शिशुसाठी आवश्यक ती सर्व पोषणमुल्ये असतात. स्तनपान हाच बाळासाठी सर्वोत्तम आहार असतो. बाळाला सहा महिन्यांपर्यंत दुसरे कोणतेही अन्न वा पाणी न देता केवळ आईचे दूध दिले पाहिजे"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:text="• आपण स्वतः पोषक आहार खाल्लं नसेल​ तर आपण मुलांना आवश्यक पोषण प्रदान करण्यास सक्षम नाही"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

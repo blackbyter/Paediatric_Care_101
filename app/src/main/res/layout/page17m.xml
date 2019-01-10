@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="बाळ जन्मल्यावर ३० मिनिटात त्याला आईजवळ देऊन स्तनपानाची सुरुवात करावी"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• जन्मल्यावर बाळाला एका तासाच्या आत स्तनावर ठेवावे आणि त्याचे तोंड स्तनाला चोटून राहिले पाहिजे"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• दुसरे काहीही न देताना फक्त घट्ट स्वरूपातील पिवळे चीकाचे दूध (कोलोस्ट्रम) द्यावे"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• बाळाला सहा महिन्यांपर्यंत दुसरे कोणतेही अन्न व पाणी न देता केवळ आईचे दूध दिले पाहिजे"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• अनैसर्गिक दूध दिल्याने बळाला असोशी व संसर्ग होण्याची शक्यता असते. स्तन्पान केल्याने बाळाला जुलाब आणि आणखी रोगांपासून संरक्षण मिळते"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:src="@drawable/colostrum"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="end"
+                android:text="Swipe to Right >>"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

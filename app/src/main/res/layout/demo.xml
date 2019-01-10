@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight=".169"
+
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:fillViewport="false"
+            android:fadeScrollbars="false"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="248dp"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Comments/Suggestions"
+                    android:paddingLeft="13dp"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:id="@+id/tv5"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/comments"
+                    android:paddingLeft="15dp"
+                    android:textSize="22dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".83"
+        android:background="#ffffff"
+        android:gravity="center_vertical">
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:text="SUBMIT"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/bSubmit"
+            android:textSize="14dp"
+            android:background="#FFBEBCB6"
+            />
+    </LinearLayout>
+</LinearLayout>

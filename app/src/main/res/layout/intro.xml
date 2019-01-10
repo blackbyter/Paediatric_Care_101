@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_gravity="center_vertical">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/images"
+       android:layout_gravity="center"
+       android:layout_marginTop="50dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp"
+       android:text="Let’s bring a healthy baby to this world"
+       android:textSize="25dp"
+       android:textAlignment="center"
+       android:layout_gravity="center"
+       android:textColor="@color/colorPrimary"
+       android:textStyle="bold"
+       />
+</LinearLayout>
